@@ -3,9 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header';
 
-// class App extends Component{
-//     render(){
-//         return (
+//  class App extends Component{
+//      render(){
+//          return (
 //         <Header> </Header>
 //         );
 //     }
@@ -13,30 +13,21 @@ import Header from './components/Header';
 
 function App() {
     return (
-        
-        <div class="container">
+      <div className="App">
+        <header className="App-header">
           <p>
-              Rohan is fucking stupid! lol
-
-          </p>  
-        </div>
-    //   <div className="App">
-    //     <header className="App-header">
-    //       <p>
-    //         Edit <code>src/App.js</code> and save to reload.
-    //       </p>
-    //       <a
-    //         className="App-link"
-    //         href="https://reactjs.org"
-    //         target="_blank"
-    //         rel="noopener noreferrer"
-    //       >
-    //         Learn React
-    //       </a>
-    //     </header>
-    //   </div>
-
-
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
     );
   }
 
