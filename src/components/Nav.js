@@ -5,7 +5,7 @@ class Nav extends Component {
         return(
             <div className="Nav">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#"><img src="../src/logo.svg" height="50px" width="50px" /></a>
+                    <a class="navbar-brand" href="#"><img src={require('../logo.svg')} height="50px" width="50px" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
