@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
+import Portfolio from './components/Portfolio.js';
 
-const App = () => {
-  return (<div className="App">Hello World!</div>);
-};
+class App extends Component{
+  render(){ 
+    return (<div className="App">
+      <Portfolio/>
+    </div>);
+  }
+}
 
 export default App;
 
