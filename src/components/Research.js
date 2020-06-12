@@ -24,7 +24,7 @@ class Research extends Component{
                 <div class="row my-3">
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                                 <p class="card-text">Seeing Haptics</p>
                                 <a href="#" class="badge badge-primary">Accessibility</a>
@@ -34,7 +34,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -44,7 +44,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -54,7 +54,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -66,7 +66,7 @@ class Research extends Component{
                 <div class="row my-3">
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -76,7 +76,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -86,7 +86,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
@@ -96,7 +96,7 @@ class Research extends Component{
                     </div>
                     <div class="col mx-n2">
                         <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
+                            <img src={require("../images/project1.jpg")} class="card-img-top" alt="..."></img>
                             <div class="card-body">
                             <p class="card-text">Seeing Haptics</p>
                             <a href="#" class="badge badge-primary">Accessibility</a>
