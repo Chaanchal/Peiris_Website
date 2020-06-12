@@ -3,6 +3,7 @@ import Nav from "./Nav.js";
 import Research from "./Research.js"
 import Footer from "./Footer.js"
 import People from "./People.js";
+import Publication from "./Publication.js";
 
 class Portfolio extends Component{
     render(){
@@ -11,6 +12,7 @@ class Portfolio extends Component{
                 <Nav />
                 {/* <Research /> */}
                 <People />
+                {/* <Publication /> */}
                 <Footer />
             </div>
         );

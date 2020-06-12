@@ -6,8 +6,7 @@ class Research extends Component{
         <div className = "Research">
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
-                    <h1 class="display-4">Roshan Peiris</h1>
-                    <p class="lead"> I am an Assistant Professor at the Rochester Institute of Technology (RIT). My research areas focus on Haptics, Virtual/Augmented Reality and Human Computer Interaction.</p>
+                    <h1 class="display-4">Altered Reality Lab</h1>
                 </div>
             </div>
 

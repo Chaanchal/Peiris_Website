@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
         <div className = "Footer">
         <div class ="footer-bottom">
-            <nav class="nav justify-content-center bg-dark p-2">
+            <nav class="nav justify-content-center bg-dark p-2 fixed-bottom">
                 <a class="nav-link active" href="#">roshan.peiris@rit.edu</a>
                 <a class="nav-link" href="#">LinkedIn</a>
                 <a class="nav-link" href="#">Google Scholar</a>
