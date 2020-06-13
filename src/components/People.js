@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PeopleCard from "./PeopleCard.js";
 
 class People extends Component{
     render(){
@@ -18,7 +19,7 @@ class People extends Component{
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
-                        <h1 class="display-4">Roshan Peiris</h1>
+                        <h5>Roshan Peiris</h5>
                         <p class="lead"> I am an Assistant Professor at the Rochester Institute of Technology (RIT). My research areas focus on Haptics, Virtual/Augmented Reality and Human Computer Interaction.</p>
                     </div>
                     </div>
@@ -54,85 +55,30 @@ class People extends Component{
 
                 <div class="row my-3">
                     <div class="col mx-n2">
-                        <div class="card">
-                        <img src={require("../images/people.jpg")} class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                                <p class="card-text">Name</p>
-                                <p class="card-text">Profession</p>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                 </div>
                 <div class="row my-3">
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                     <div class="col mx-n2">
-                        <div class="card">
-                            <img src="../public/project1.jpg" class="card-img-top" alt="..."></img>
-                            <div class="card-body">
-                            <p class="card-text">Seeing Haptics</p>
-                            <a href="#" class="badge badge-primary">Accessibility</a>
-                                <a href="#" class="badge badge-secondary">Haptics</a>
-                            </div>
-                        </div>
+                        <PeopleCard />
                     </div>
                 </div>
             </div>

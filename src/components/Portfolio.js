@@ -11,8 +11,8 @@ class Portfolio extends Component{
             <div className="Portfolio"> 
                 <Nav />
                 {/* <Research /> */}
-                <People />
-                {/* <Publication /> */}
+                {/* <People /> */}
+                <Publication />
                 <Footer />
             </div>
         );
