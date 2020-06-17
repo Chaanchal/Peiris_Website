@@ -6,6 +6,7 @@ import Research from "./components/Research.js";
 import Footer from "./components/Footer.js";
 import People from "./components/People.js";
 import Publication from "./components/Publication.js";
+import About from "./components/About.js";
 
 
 class App extends Component{
@@ -19,6 +20,7 @@ class App extends Component{
               <Route exact path="/" component={Research} />
               <Route path="/publications" component={Publication} />
               <Route path="/people" component={People} />
+              <Route path="/contact" component={About} />
             </Switch>
 
             <Footer />

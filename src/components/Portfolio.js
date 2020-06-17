@@ -6,6 +6,8 @@ import Research from "./Research.js"
 import Footer from "./Footer.js"
 import People from "./People.js";
 import Publication from "./Publication.js";
+import About from "./About.js";
+import PublicationView from "./PublicationView.js";
 
 const history = createHistory()
 
