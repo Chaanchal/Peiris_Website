@@ -1,12 +1,30 @@
 import React, {Component} from 'react';
 import './App.css';
-import Portfolio from './components/Portfolio.js';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Nav from "./components/Nav.js";
+import Research from "./components/Research.js";
+import Footer from "./components/Footer.js";
+import People from "./components/People.js";
+import Publication from "./components/Publication.js";
+
 
 class App extends Component{
   render(){ 
-    return (<div className="App">
-      <Portfolio/>
-    </div>);
+    return (
+      <Router>
+      <div>
+            <Nav />
+
+            <Switch>
+              <Route exact path="/" component={Research} />
+              <Route path="/publications" component={Publication} />
+              <Route path="/people" component={People} />
+            </Switch>
+
+            <Footer />
+      </div>
+      </Router>
+    );
   }
 }
 

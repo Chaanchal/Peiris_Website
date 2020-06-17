@@ -9,7 +9,7 @@ class Footer extends Component {
                 <a class="nav-link active" href="#">roshan.peiris@rit.edu</a>
                 <a class="nav-link" href="#">LinkedIn</a>
                 <a class="nav-link" href="#">Google Scholar</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Anything</a>
+                <a class="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Anything</a>
             </nav>
         </div>
         </div>
