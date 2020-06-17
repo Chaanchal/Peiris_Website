@@ -4,6 +4,8 @@ import Research from "./Research.js"
 import Footer from "./Footer.js"
 import People from "./People.js";
 import Publication from "./Publication.js";
+import About from "./About.js";
+import PublicationView from "./PublicationView.js";
 
 class Portfolio extends Component{
     render(){
@@ -12,7 +14,9 @@ class Portfolio extends Component{
                 <Nav />
                 {/* <Research /> */}
                 {/* <People /> */}
-                <Publication />
+                {/* <Publication /> */}
+                {/* <About /> */}
+                <PublicationView />
                 <Footer />
             </div>
         );

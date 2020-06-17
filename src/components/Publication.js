@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PublicationCard from "./PublicationCard.js";
+import PublicationView from "./PublicationView.js";
 
 class Publication extends Component{
     render(){

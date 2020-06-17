@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import People from "./People.js";
+import About from "./About.js";
+
 
 class Nav extends Component {
     render() {
