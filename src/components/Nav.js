@@ -28,6 +28,13 @@ class Nav extends Component {
                             <li class="nav-item">
                                 <NavLink class="nav-link" to="/contact">Contact</NavLink>
                             </li>
+                            
+                            <li class="nav-item">
+                                <NavLink class="nav-link" to="/projectView">ProjectView</NavLink>
+                            </li>
+                            {/* <li class="nav-item">
+                                <NavLink class="nav-link" to="/PeopleView">PeopleView</NavLink>
+                            </li> */}
                         </ul>
                     </div>
                 </nav>

@@ -7,7 +7,8 @@ import Footer from "./components/Footer.js";
 import People from "./components/People.js";
 import Publication from "./components/Publication.js";
 import About from "./components/About.js";
-
+import ProjectView from "./components/ProjectView.js";
+import PeopleView from "./components/PeopleView.js";
 
 class App extends Component{
   render(){ 
@@ -21,6 +22,8 @@ class App extends Component{
               <Route path="/publications" component={Publication} />
               <Route path="/people" component={People} />
               <Route path="/contact" component={About} />
+              <Route path="/ProjectView" component={ProjectView} />
+              {/* <Route path="/PeopleView" component={PeopleView} /> */}
             </Switch>
 
             <Footer />
