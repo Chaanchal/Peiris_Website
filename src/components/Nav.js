@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import { NavLink } from 'react-router-dom';
-
+import "../index.css";
 
 class Nav extends Component {
     render() {
@@ -16,17 +16,17 @@ class Nav extends Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <NavLink class="nav-link" to="/">Research</NavLink>
+                            <li class="nav-item">
+                                <NavLink exact className="nav-link" activeClassName="active" to="/" >Research</NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink class="nav-link" to="/publications">Publications</NavLink>
+                                <NavLink className="nav-link" activeClassName="active" to="/publications">Publications</NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink class="nav-link" to="/people">People</NavLink>
+                                <NavLink className="nav-link" activeClassName="active" to="/people">People</NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink class="nav-link" to="/contact">Contact</NavLink>
+                                <NavLink className="nav-link" activeClassName="active" to="/contact">Contact</NavLink>
                             </li>
                         </ul>
                     </div>
