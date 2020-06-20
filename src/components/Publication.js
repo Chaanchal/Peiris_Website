@@ -6,7 +6,7 @@ class Publication extends Component{
     render(){
         return(
             <div className = "Publication">
-            <h1 class="display-4">Publication</h1>
+            <h1 class="display-4 p-auto">Publication</h1>
                 <PublicationCard />
                 <PublicationCard />
                 <PublicationCard />
