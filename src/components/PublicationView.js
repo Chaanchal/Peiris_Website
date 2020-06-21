@@ -13,6 +13,7 @@ class PublicationView extends Component{
                     </div>
                 </div>
                 <div class = "container">
+                    <p> <h5>Abstract</h5> Lorizzle ipsum dolor sit amizzle, consectetizzle adipiscing dawg. Nullam sapien velit, aliquet volutpizzle, suscipi. Lorizzle ipsum dolor sit amizzle, consectetizzle adipiscing dawg. Nullam sapien velit, aliquet volutpizzle, suscipi</p>
                     <img src={require("../images/bg2.jpg")} class="fluid" width="100%" height="250px" ></img>
                     <p class=" my-2">
                         Lorizzle ipsum dolor sit amizzle, consectetizzle adipiscing dawg. Nullam sapien velit, aliquet volutpizzle, suscipit izzle, gravida vel, gizzle. Pellentesque owned tortizzle. Sizzle eros. Dope fo shizzle mah nizzle fo rizzle, mah home g-dizzle dawg dapibus turpis black crackalackin. Uhuh ... yih! pellentesque nibh izzle turpizzle. Shizzle my nizzle crocodizzle izzle tortizzle. Break it down fo shizzle my nizzle rhoncus rizzle. In mofo break it down platea dictumst. Cool dapibus. Curabitizzle tellus urna, pretizzle fo shizzle, mattizzle the bizzle, eleifend vitae, nunc. Shizzlin dizzle suscipizzle. Rizzle rizzle velit you son of a bizzle brizzle.

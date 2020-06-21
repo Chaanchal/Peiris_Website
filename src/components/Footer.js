@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Form } from 'reactstrap';
 import { Container, Col, File,
-    FormGroup, Label, Input,
-    Button  } from 'reactstrap';
+FormGroup, Label, Input,
+Button  } from 'reactstrap';
 
 class Footer extends Component {
     render(){
@@ -19,32 +19,44 @@ class Footer extends Component {
                         <a class="nav-link" href="#">Contact number</a>
                         <a class="nav-link" href="#">Address@gmail.com</a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 ml-auto">
                     <Form className="form">
-          <Col>
-            <FormGroup>
-              <Label>Email</Label>
-              <Input
-                type="email"
-                name="email"
-                id="exampleEmail"
-                placeholder="myemail@email.com"
-              />
-            </FormGroup>
-          </Col>
-          <Col>
-            <FormGroup>
-              <Label for="examplePassword">Password</Label>
-              <Input
-                type="password"
-                name="password"
-                id="examplePassword"
-                placeholder="********"
-              />
-            </FormGroup>
-          </Col>
-          <Button>Submit</Button>
-        </Form>
+                        <Col>
+                                <FormGroup>
+                                <Label>Full Name</Label>
+                                <Input
+                                    type="text"
+                                    name="name"
+                                    id="exampleName"
+                                    placeholder="John Doe"
+                                />
+                                </FormGroup>
+                            </Col>
+                        <Col>
+                            <FormGroup>
+                            <Label>Email</Label>
+                            <Input
+                                type="email"
+                                name="email"
+                                id="exampleEmail"
+                                placeholder="myemail@email.com"
+                            />
+                            </FormGroup>
+                        </Col>
+
+                        <Col>
+                            <FormGroup>
+                            <Label>Message</Label>
+                            <Input
+                                type="text"
+                                name="Message"
+                                id="exampleMessage"
+                                
+                            />
+                            </FormGroup>
+                        </Col>
+                        <Button>Submit</Button>
+                    </Form>
                     </div>
                 </div>
             </nav>

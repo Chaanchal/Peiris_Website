@@ -9,6 +9,7 @@ import Publication from "./components/Publication.js";
 import About from "./components/About.js";
 import ProjectView from "./components/ProjectView.js";
 import PeopleView from "./components/PeopleView.js";
+import PublicationView from './components/PublicationView';
 
 class App extends Component{
   render(){ 
@@ -23,7 +24,8 @@ class App extends Component{
               <Route path="/people" component={People} />
               <Route path="/contact" component={About} />
               <Route path="/ProjectView" component={ProjectView} />
-              {/* <Route path="/PeopleView" component={PeopleView} /> */}
+              <Route path="/PeopleView" component={PeopleView} />
+              <Route path="/PublicationView" component={PublicationView} />
             </Switch>
 
             <Footer />
