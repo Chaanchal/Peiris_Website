@@ -57,6 +57,14 @@ class Footer extends Component {
                         </Col>
                         <Button>Submit</Button>
                     </Form>
+                    {/* <Form>
+                    <Form.File 
+                        id="custom-file"
+                        label="Custom file input"
+                        custom
+                    />
+                    </Form> */}
+
                     </div>
                 </div>
             </nav>
