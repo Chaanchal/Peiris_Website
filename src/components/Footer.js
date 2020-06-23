@@ -9,7 +9,7 @@ class Footer extends Component {
         return (
         <div className = "Footer">
         <div class ="footer-bottom">
-            <nav class="nav justify-content-center bg-dark p-2 fixed-bottom flex-column">
+            <nav class="nav justify-content-center bg-dark p-2 flex-column">
                 <div class="row no-gutters">
                     <div class="col-md-4">
                         <a class="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Altered Reality Lab</a>

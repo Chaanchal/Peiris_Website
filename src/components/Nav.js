@@ -30,7 +30,7 @@ class Nav extends Component {
                             </li>
                             
                             <li class="nav-item">
-                                <NavLink class="nav-link" to="/publicationView">PublicationView</NavLink>
+                                <NavLink class="nav-link" activeClassName="active" to="/publicationView">PublicationView</NavLink>
                             </li>
                             {/* <li class="nav-item">
                                 <NavLink class="nav-link" to="/PeopleView">PeopleView</NavLink>

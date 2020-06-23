@@ -28,7 +28,7 @@ class App extends Component{
               <Route path="/PublicationView" component={PublicationView} />
             </Switch>
 
-            {/* <Footer /> */}
+            <Footer />
       </div>
       </Router>
     );
